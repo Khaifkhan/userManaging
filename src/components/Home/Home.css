@@ -1,0 +1,55 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.text-container {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 2.5rem;
+  margin-right: 1.25rem;
+  text-align: left;
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: lightseagreen;
+}
+
+.subtitle {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: darkslategray;
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  color: #333333;
+  line-height: 1.75;
+}
+
+.start-shopping-button {
+  margin-top: 10px;
+  color: white;
+  background-color: lightseagreen;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 1vw 2vw;
+  border: none;
+}
+
+.start-shopping-button:hover {
+  background-color: #00796b;
+  cursor: pointer;
+}
+
+.image {
+  height: 500px;
+  width: 600px;
+}
